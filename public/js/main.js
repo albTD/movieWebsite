@@ -33,7 +33,7 @@ function getMovies(searchText){
             <div class="well text-center">
             <img src="`+movie.Poster+`">
             <h4>`+movie.Title+`</h4>
-            <a onClick="movieSelected('`+movie.Title+`')" class="btn btn-primary" >Movie Details</a>
+            <a onClick="movieSelected('`+movie.Title+`')" class="btn btn-primary" style="color:white;">Movie Details</a>
             </div>
             </div>
             `;
