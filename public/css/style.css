@@ -20,26 +20,43 @@ right:50px;
 
 .img2{
 position: relative;
-right:80px;
-bottom:300px;
+left:160px;
+bottom:400px;
 }
 .jumbotron{
     position: relative;
-    bottom:300px;
+    bottom:400px;
 }
 
 .full2{
-    height:725px;
+    height:1000px;
 }
 
 .navbar-brand{
   position: relative;
   right:37px;
-  
+
  
 }
+
+.nav-item{
+    padding-left: 60px;
 }
 
+.navbar-collapse{
+    color:black;
+}
+
+.thumbnail{
+  position: relative;
+  right:80px;
+}
+
+}
+
+.nav-link{
+    font-size: 1.8rem;
+}
 
 
 .navbar-expand-lg {
@@ -82,19 +99,19 @@ bottom:300px;
 }
 
 .img{
-    height:300px;
-    width:300px;
+    height:400px;
+    width:400px;
 }
 .img2{
-    height:300px;
-    width:200px;
+    height:400px;
+    width:280px;
     /* position:relative;
     left:220px; */
-    margin-left: 280px;
+    margin-left: 200px;
 }
 .as{
     font-family: "Montserrat";
-    font-size: 1.6rem;
+    font-size: 2.3rem;
     line-height: 1.5;
     color: white;
     text-align: center;
@@ -106,6 +123,7 @@ bottom:300px;
     background-color:#ef8172;
     text-align:center;
 
+    padding:7% 7% 7% 7%;
     color:#fff;
 }
 
@@ -123,21 +141,23 @@ bottom:300px;
     text-align: center;
 
     padding:7% 15% 7% 15%;
-    
+    background-color: #ff4c68;  
 }
 .asa{
     font-family: "Montserrat";
     font-size: 3rem;
     line-height: 1.5;
-    color:#ff4c68;
+  color:white;
 }
 #footer{
     padding:2% 15% 2% 15%;
     text-align: center;
-    background-color: #ff4c68;  
+
 }
 .cf{
-    margin:0 10px 0 10px;
+    margin:0 50px 0 50px;
+    font-size: 2rem;
+    padding-top: 10px;
 }
 .hidden{
     display: none;
@@ -153,4 +173,26 @@ h3{
 }
 .thumbnail{
     padding-top: 3%;
+}
+#pricing{
+    padding:100px;
+    text-align:center;
+}
+
+.head2{
+font-size: 3rem;
+}
+#searchText{
+    height: 4rem;
+}
+em{
+    font-size: 3rem;
+}
+
+.wq2{
+    padding-top: 10px;
+    font-size: 1.8rem;
+}
+.well{
+    font-size: 2rem;
 }

@@ -32,8 +32,8 @@ function getMovies(searchText){
             <div class="col-md-3">
             <div class="well text-center">
             <img src="`+movie.Poster+`">
-            <h5>`+movie.Title+`</h5>
-            <a onClick="movieSelected('`+movie.Title+`')" class="btn btn-primary" href="#">Movie Details</a>
+            <h4>`+movie.Title+`</h4>
+            <a onClick="movieSelected('`+movie.Title+`')" class="btn btn-primary" >Movie Details</a>
             </div>
             </div>
             `;
@@ -67,26 +67,26 @@ function getMovie(){
     <img src="${movie.Poster}" class="thumbnail">
     </div>
     <div class="col-md-8">
-    <h2>${movie.Title}</h2>
+    <h1>${movie.Title}</h1>
     <ul class="list-group">
-    <li class="list-group-item"><strong>Genre:</strong>${movie.Genre}</li>
-    <li class="list-group-item"><strong>Released:</strong>${movie.Released}</li>
-    <li class="list-group-item"><strong>Rated:</strong>${movie.Rated}</li>
-    <li class="list-group-item"><strong>IMDB Rating:</strong>${movie.imdbRating}</li>
-    <li class="list-group-item"><strong>Director:</strong>${movie.Director}</li>
-    <li class="list-group-item"><strong>Writer:</strong>${movie.Writer}</li>
-    <li class="list-group-item"><strong>Actors:</strong>${movie.Actors}</li>
+    <li class="list-group-item" style="font-size:2rem;"><strong>Genre:   </strong>${movie.Genre}</li>
+    <li class="list-group-item" style="font-size:2rem;"><strong>Released:   </strong>${movie.Released}</li>
+    <li class="list-group-item" style="font-size:2rem;"><strong>Rated:   </strong>${movie.Rated}</li>
+    <li class="list-group-item" style="font-size:2rem;"><strong>IMDB Rating:   </strong>${movie.imdbRating}</li>
+    <li class="list-group-item" style="font-size:2rem;"><strong>Director:   </strong>${movie.Director}</li>
+    <li class="list-group-item" style="font-size:2rem;"><strong>Writer:   </strong>${movie.Writer}</li>
+    <li class="list-group-item" style="font-size:2rem;"><strong>Actors:   </strong>${movie.Actors}</li>
     </ul>
     </div>
     </div>
 
     <div class="row adjust">
     <div class="well">
-    <h3>Plot</h3>
+    <h1>Plot</h1>
     ${movie.Plot}
     <hr>
-    <a href="https://imdb.com/title/${movie.imdbID}" target="_blank" class="btn btn-primary">View IMDB</a>
-    <a href="/" class="btn btn-default">Go Back To Search</a>
+    <a href="https://imdb.com/title/${movie.imdbID}" target="_blank" class="btn btn-primary" style="font-size:2rem;">View IMDB</a>
+    <a href="/" class="btn btn-outline btn-secondary" style="font-size:2rem;">Go Back To Search</a>
     </div>
     </div>
     `;
