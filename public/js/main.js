@@ -18,7 +18,7 @@ $(document).ready(function(){
 function getMovies(searchText){
     axios.get('https://www.omdbapi.com/?i=tt3896198&apikey=4096650&s='+searchText).then((response)=>{
         console.log(response);
-    if(response.data.Error==="Movie not found!"){
+        if(response.data.Error==="Movie not found!" || response.data.Error==="Too many results."){
         $('.full3').addClass("hidden");
         alert("Movie not found.");
     }
